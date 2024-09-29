@@ -60,19 +60,11 @@ dotnet build
 
 # Tests
 
-Le projet inclut un ensemble de tests unitaires pour valider les fonctionnalités principales. Pour exécuter les tests, utilisez les commandes suivantes :
+Pour tester le projet, vous pouvez utilisez la commande suivante 
 
-#    Ajoutez un projet de tests si nécessaire :
-
-dotnet new xunit -n GestionFlotte.Tests
-
-# Ajoutez une référence au projet principal :
-
-dotnet add GestionFlotte.Tests/GestionFlotte.Tests.csproj reference GestionFlotte/GestionFlotte.csproj
-
-# Exécutez les tests :
-
-    dotnet test
+dotnet run --test
+ou directement depuis le menu de l'application, choisir l'option 11, planifier un trajet automatique.
+Vous parcourerez ainsi l'ensemble des fonctionaliés de l'application
 
 # Structure du projet
 
@@ -115,5 +107,5 @@ gestion-flotte/
 
 # Auteur
 
-    Nom : titidlh
+    Nom : Thierry Delahye
     
